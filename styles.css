@@ -64,6 +64,19 @@ body {
   color: #4a004a;
 }
 
+/* About & Contact Sections */
+.about, .contact {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff0f5;
+  color: #4a004a;
+}
+
+.contact a {
+  color: #c2185b;
+  text-decoration: none;
+}
+
 /* Services Section */
 .services {
   padding: 40px 20px;
@@ -105,4 +118,28 @@ body {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
 }
