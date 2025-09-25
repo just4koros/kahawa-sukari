@@ -142,6 +142,7 @@ body {
 .gallery-grid img:hover {
   transform: scale(1.05);
 }
+
 /* Booking Section Styles */
 #booking {
   background-color: #fff5f8;
@@ -208,5 +209,6 @@ form button:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 
