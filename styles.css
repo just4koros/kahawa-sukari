@@ -142,4 +142,71 @@ body {
 .gallery-grid img:hover {
   transform: scale(1.05);
 }
+/* Booking Section Styles */
+#booking {
+  background-color: #fff5f8;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.booking-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#booking h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #d63384;
+}
+
+.intro-text {
+  font-size: 1em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #c2186b;
+}
+
+.contact-note {
+  margin-top: 20px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.contact-note a {
+  color: #d63384;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
